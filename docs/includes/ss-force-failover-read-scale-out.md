@@ -57,6 +57,7 @@ To manually fail over without data loss:
    This setting ensures that every active transaction is committed to the primary replica and at least one synchronous secondary replica.
    >[!NOTE]
    >This setting is not specific to failover and should be set based on the requirements of the environment.
+   >This setting is available only in Enterprise Edition.
 
 1. Set the primary replica and the secondary replica(s) not participating in the failover offline to prepare for the role change: 
 
